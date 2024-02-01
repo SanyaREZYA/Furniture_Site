@@ -762,8 +762,9 @@ a {
     .intro {
         background-image: none;
     }
+
     .intro-info {
-        width: 60%;
+        width: 100%;
         height: auto;
     }
 
