@@ -759,6 +759,9 @@ a {
 }
 
 @media screen and (max-width: 540px) {
+    .intro {
+        background-image: none;
+    }
     .intro-info {
         width: 60%;
         height: auto;
