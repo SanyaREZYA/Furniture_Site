@@ -776,4 +776,10 @@ a {
     .gallery_delete {
         display: none;
     }
+
+    .copyright {
+        padding-left: 35px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
 }
