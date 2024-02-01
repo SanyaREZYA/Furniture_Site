@@ -763,4 +763,8 @@ a {
         width: 60%;
         height: auto;
     }
+
+    .gallery_delete {
+        display: none;
+    }
 }
