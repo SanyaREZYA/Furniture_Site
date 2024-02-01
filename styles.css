@@ -80,7 +80,7 @@
     justify-content: flex-end;
     width: clamp(452px, 1440px, 2560px);
     height: clamp(220px, 717px, 1280px);
-    background-image: url("/intro_bg.png");
+    background-image: url("images/intro_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
