@@ -171,6 +171,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    text-align: center;
     line-height: normal;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #000;
@@ -486,8 +487,8 @@
 }
 
 .slide {
-    width: 372px;
-    height: 486px;
+    max-width: 372px;
+    max-height: 486px;
     transition: all .6s ease;
 }
 
@@ -586,12 +587,13 @@ input[name="r"] {
     width: 100%;
     margin-top: 48px;
     display: flex;
+    justify-content: center;
 }
 
 .main-info {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 25%;
     padding-left: 100px;
 }
 
@@ -617,11 +619,17 @@ input[name="r"] {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
+    gap: 40px;
 }
 
 .footer-div {
     display: flex;
+    flex-direction: column;
     gap: 46px;
+}
+
+.footer-div_horizontal {
+    flex-direction: row;
 }
 
 .footer-div ul {
@@ -631,7 +639,7 @@ input[name="r"] {
 }
 
 .footer-div__header {
-    padding-bottom: 55px;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -675,6 +683,7 @@ input[name="r"] {
     padding-bottom: 38px;
 }
 
+
 a {
     color: black;
     text-decoration: none;
@@ -685,36 +694,36 @@ a {
         width: 85%;
         height: auto;
     }
-
+    
     .prototipes-section {
         width: 80%;
         flex-wrap: wrap;
         height: auto;
     }
-
+    
     .prototipes-div {
         height: 100hv;
     }
-
+    
     .prototipes-div {
         margin-right: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    
     .gallery-section {
         width: 80%;
         flex-wrap: wrap;
     }
-
+    
     .gallery-div-container {
         flex-wrap: wrap;
     }
-
+    
     .main {
         flex-wrap: wrap;
     }
-
+    
     .main-info {
         padding-bottom: 20px;
     }
@@ -726,7 +735,7 @@ a {
         height: auto;
         padding: 15px;
     }
-
+    
     .nav-links,
     .nav-icons {
         display: none;
@@ -734,35 +743,57 @@ a {
         text-align: center;
         margin-top: 10px;
     }
-
+    
     .nav li {
         float: none;
         display: block;
         margin-bottom: 10px;
     }
-
+    
     .nav-icons ul,
     .nav-links ul {
         padding: 0;
         margin: 0;
     }
-
+    
     .nav-icons li,
     .nav-links li {
         padding: 0;
         margin: 0;
         font-size: 30px;
     }
-
+    
     .nav-icons {
         order: 1;
     }
-
+    
     .burger-icon {
         display: block;
         cursor: pointer;
     }
+    
+}
 
+@media screen and (max-width: 789px) {
+    ._text-center {
+        text-align: center;
+    }
+
+    .gallery_delete_s {
+        display: none;
+    }
+
+    .products-section {
+        width: 100%;
+    }
+
+    .gallery-div-container {
+        justify-content: center;
+    }
+    
+    .gallery-div {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -777,17 +808,95 @@ a {
         margin-right: 0;
     }
 
+    .intro-info-content {
+        padding: 15px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+    
     .main {
         justify-content: center;
     }
 
-    .gallery_delete {
+    .main-info {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    
+    .gallery_delete_l {
         display: none;
     }
 
+
+    
     .copyright {
         padding-left: 35px;
         padding-top: 10px;
         padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .range-div {
+        width: 375px;
+        height: auto;
+    }
+
+    .range-section__header {
+        font-size: 26px;
+    }
+
+    .range-section__description {
+        font-size: 12px;
+    }
+
+    .prototipes-div {
+        margin-right: 0;
+    }
+
+    .prototipes-div-info {
+        width: 100%;
+    }
+
+    .prototipes-div__header {
+        font-size: 26px;
+    }
+
+    .prototipes-div__description{
+        font-size: 14px;
+    }
+
+    .gallery_delete_m {
+        display: none;
+    }
+
+    .footer-div {
+        align-items: center;
+    }
+
+    .footer-div ul {
+        align-items: center;
+    }
+
+    .footer hr {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+    }
+
+    .gallery-section__header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .range-div {
+        width: 320px;
+        height: auto;
     }
 }
