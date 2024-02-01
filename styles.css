@@ -624,6 +624,12 @@ input[name="r"] {
     gap: 46px;
 }
 
+.footer-div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
 .footer-div__header {
     padding-bottom: 55px;
     font-size: 16px;
