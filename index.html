@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Furniro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body">
+    <nav class="nav">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo">
+            <h1>Furnito</h1>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-icons">
+            <ul>
+                <li><a href=""><img src="/images/account.png" alt="Account"></a></li>
+                <li><a href=""><img src="/images/search.png" alt="Search"></a></li>
+                <li><a href=""><img src="/images/favorite.png" alt="Favorite"></a></li>
+                <li><a href=""><img src="/images/cart.png" alt="Cart"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="burger-icon" onclick="toggleNav()">&#9776;</div>
+    <div class="intro">
+        <div class="intro-info">
+            <div class="intro-info-content">
+                <h2 class="intro-info-content__subheader">New Arrival</h2>
+                <h1 class="intro-info-content__header">Discover Our New Collection</h1>
+                <p class="intro-info-content__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit tellus, luctus nec ullamcorper mattis.</p>
+                <button class="button intro-info-content__button">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <section class="range-section">
+        <h1 class="range-section__header">Browse The Range</h1>
+        <p class="range-section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="range-div-container">
+            <a href="">
+                <div class="range-div">
+                    <img src="/images/dining.png" alt="Dining room">
+                    <h1 class="range-div__header">Dining</h1>
+                </div>
+            </a>
+            <a href="">
+                <div class="range-div">
+                    <img src="/images/living.png" alt="Living room">
+                    <h1 class="range-div__header">Living</h1>
+                </div>
+            </a>
+            <a href="">
+                <div class="range-div">
+                    <img src="/images/bedroom.png" alt="Bedroom">
+                    <h1 class="range-div__header">Bedroom</h1>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="products-section">
+        <h1 class="products-section__header">Our Products</h1>
+        <div class="products-div-container">
+            <div class="products-div">
+                <div class="products-div__image">
+                    <div class="event-div event-div_sale">
+                        <p>-30%</p>
+                    </div>
+                    <img src="/images/syltherine.png" alt="Syltherine">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Syltherine</h1>
+                    <h2 class="products-div-info__description">Stylish cafe chair</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 2.500.00</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s>Rp 3.500.00</s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="products-div">
+                <div class="products-div__image">
+                    <img src="/images/leviosa.png" alt="Leviosa">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Leviosa</h1>
+                    <h2 class="products-div-info__description">Stylish cafe chair</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 2.500.000</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s></s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="/images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="products-div">
+                <div class="products-div__image">
+                    <div class="event-div event-div_sale">
+                        <p>-50%</p>
+                    </div>
+                    <img src="/images/lolito.png" alt="Lolito">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Lolito</h1>
+                    <h2 class="products-div-info__description">Luxury big sofa</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 7.000.000</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s>Rp 14.000.000</s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="/images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="products-div">
+                <div class="products-div__image">
+                    <div class="event-div event-div_new">
+                        <p>New</p>
+                    </div>
+                    <img src="images/respire.png" alt="Respira">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Respira</h1>
+                    <h2 class="products-div-info__description">Outdoor bar table and stool</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 500.000</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s></s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="/images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="products-div">
+                <div class="products-div__image">
+                    <img src="/images/grifo.png" alt="Grifo">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Grifo</h1>
+                    <h2 class="products-div-info__description">Night lamp</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 1.500.00</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s></s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="/images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="products-div">
+                <div class="products-div__image">
+                    <div class="event-div event-div_new">
+                        <p>New</p>
+                    </div>
+                    <img src="images/muggo.png" alt="Muggo">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Muggo</h1>
+                    <h2 class="products-div-info__description">Small mug</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 150.000</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s></s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="/images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="products-div">
+                <div class="products-div__image">
+                    <div class="event-div event-div_sale">
+                        <p>-30%</p>
+                    </div>
+                    <img src="/images/pingky.png" alt="Pingky">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Pingky</h1>
+                    <h2 class="products-div-info__description">Cute bed set</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 7.000.000</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s>Rp 14.000.000</s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="/images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="products-div">
+                <div class="products-div__image">
+                    <div class="event-div event-div_new">
+                        <p>New</p>
+                    </div>
+                    <img src="/images/potty.png" alt="Potty">
+                </div>
+                <div class="products-div-info">
+                    <h1 class="products-div-info__header">Potty</h1>
+                    <h2 class="products-div-info__description">Minimalist flower pot</h2>
+                    <p class="products-div-info__price products-div-info_price_actual">Rp 500.000</p>
+                    <p class="products-div-info__price products-div-info_price_old"><s></s></p>
+                </div>
+                <div class="products-div-overlay">
+                    <div class="overlay-content">
+                      <button class="overlay-button products-section__button">Add to cart</button>
+                      <div class="overlay-links">
+                        <a href="#"><img src="/images/share_icon.png" alt="Share icon">Share</a>
+                        <a href="#"><img src="/images/compare_icon.png" alt="Compare icon">Compare</a>
+                        <a href="#"><img src="/images/like_icon.png" alt="Like icon">Like</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <button class="button products-section__button">Show More</button>
+
+    </section>
+    <section class="prototipes-section">
+        <div class="prototipes-div-container">
+            <div class="prototipes-div-info">
+                <h1 class="prototipes-div__header">50+ Beautiful rooms
+                    inspiration</h1>
+                <p class="prototipes-div__description">Our designer already made a lot of beautiful
+                    prototipe of rooms that inspire you</p>
+                <button class="button prototipes-div__button">Explore More</button>
+            </div>
+            <div class="prototipes-div prototipes-div_bedroom-bg">
+                <div class="prototipes-div-inner">
+                    <div class="prototipes-div-inner__content">
+                        <p class="prototipes-div__description">0 —— Bed Room</p>
+                        <h2 class="prototipes-div__subheader">Inner Peace</h2>
+                    </div>
+                    <button class="button prototipes-div__button prototipes-div__button_arrow">&rarr;</button>
+                </div>
+            </div>
+            <div class="prototipes-div slider">
+                <div class="slides">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <input type="radio" name="r" id="r4">
+
+                    <div class="slide s1"><img src="/images/carousel_first.png" alt="Slider first image"></div>
+                    <div class="slide"><img src="/images/carousel_second.jpg" alt="Slider second image"></div>
+                    <div class="slide"><img src="/images/carousel_third.jpg" alt="Slider third image"></div>
+                    <div class="slide"><img src="/images/carousel_fourth.jpg" alt="Slider fourth image"></div>
+                </div>
+                <div class="slides__nav">
+                    <label for="r1" class="bar"></label>
+                    <label for="r2" class="bar"></label>
+                    <label for="r3" class="bar"></label>
+                    <label for="r4" class="bar"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-section">
+        <h2 class="gallery-section__subheader">Share your setup with</h2>
+        <h1 class="gallery-section__header">#FuniroFurniture</h1>
+        <div class="gallery-div-container">
+            <div class="gallery-div">
+                <img src="/images/gallery_first.png" alt="">
+                <img src="/images/gallery_second.png" alt="">
+                <img src="/images/gallery_sixth.png" alt="">
+                <img src="/images/gallery_seventh.png" alt="">
+            </div>
+            <div class="gallery-div-center">
+                <img src="/images/gallery_third.png" alt="">
+            </div>
+            <div class="gallery-div">
+                <img src="/images/gallery_fourth.png" alt="">
+                <img src="/images/gallery_fifth.png" alt="">
+                <img src="/images/gallery_eighth.png" alt="">
+                <img src="/images/gallery_ninth.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="main">
+            <div class="main-info">
+                <h1 class="footer__logo">Funiro.</h1>
+                <p class="footer__address">400 University Drive Suite 200 Coral
+                    Gables,
+                    FL 33134 USA</p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-div">
+                    <h1 class="footer-div__header">Links</h1>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <h1 class="footer-div__header">Help</h1>
+                    <ul>
+                        <li><a href="">Payment Options</a></li>
+                        <li><a href="">Returns</a></li>
+                        <li><a href="">Privacy Policies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <h1 class="footer-div__header">Newsletter</h1>
+                    <input class="footer__input" type="text" placeholder="Enter Your Email Address">
+                    <button class="footer__button">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy;2023 furino. All rights reverved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
