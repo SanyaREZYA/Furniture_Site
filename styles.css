@@ -759,7 +759,7 @@ a {
 }
 
 @media screen and (max-width: 540px) {
-    .intro {
+    .intro { 
         width: 100%;
         background-image: none;
     }
