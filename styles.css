@@ -619,6 +619,11 @@ input[name="r"] {
     justify-content: space-around;
 }
 
+.footer-div {
+    display: flex;
+    gap: 46px;
+}
+
 .footer-div__header {
     padding-bottom: 55px;
     font-size: 16px;
@@ -626,10 +631,6 @@ input[name="r"] {
     font-weight: 500;
     line-height: normal;
     color: var(--footer-font);
-}
-
-.footer-div li {
-    padding-bottom: 46px;
 }
 
 .footer__input {
