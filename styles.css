@@ -80,7 +80,7 @@
     justify-content: flex-end;
     width: clamp(452px, 1440px, 2560px);
     height: clamp(220px, 717px, 1280px);
-    background-image: url("/site_1_furniro_home/images/intro_bg.png");
+    background-image: url("images/intro_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -394,7 +394,7 @@
 .prototipes-div_bedroom-bg {
     width: 404px;
     height: 582px;
-    background-image: url("/site_1_furniro_home/images/bedroom_first.png");
+    background-image: url("images/bedroom_first.png");
 }
 
 .prototipes-div-info {
@@ -500,20 +500,20 @@
     height: 11px;
     width: 11px;
     cursor: pointer;
-    background-image: url("/site_1_furniro_home/images/passive.png");
+    background-image: url("images/passive.png");
     transition: all .4s ease;
 }
 
 .bar:active {
     height: 27px;
     width: 27px;
-    background-image: url("/site_1_furniro_home/images/active.png");
+    background-image: url("images/active.png");
 }
 
 .bar:focus {
     height: 27px;
     width: 27px;
-    background-image: url("/site_1_furniro_home/images/active.png");
+    background-image: url("images/active.png");
 }
 
 input[name="r"] {
