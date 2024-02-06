@@ -392,10 +392,13 @@
     display: flex;
 }
 
-.prototipes-div_bedroom-bg {
+.prototipes-div_slider-bg {
     width: 404px;
     height: 582px;
-    background-image: url("images/bedroom_first.png");
+    background-image: url("images/slider_first.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.6s ease-in-out;
 }
 
 .prototipes-div-info {
@@ -559,7 +562,7 @@ input[name="r"] {
     line-height: 150%;
     color: var(--font-color-6);
 }
- 
+
 .gallery-div-container {
     display: flex;
     align-items: center;
