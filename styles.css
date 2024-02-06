@@ -501,23 +501,13 @@
 }
 
 .bar {
-    height: 11px;
-    width: 11px;
+    height: 27px;
+    width: 27px;
     cursor: pointer;
     background-image: url("images/passive.png");
+    background-repeat: no-repeat;
+    background-position: center;
     transition: all .4s ease;
-}
-
-.bar:active {
-    height: 27px;
-    width: 27px;
-    background-image: url("images/active.png");
-}
-
-.bar:focus {
-    height: 27px;
-    width: 27px;
-    background-image: url("images/active.png");
 }
 
 input[name="r"] {
