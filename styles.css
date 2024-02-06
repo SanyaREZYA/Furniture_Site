@@ -573,6 +573,12 @@ input[name="r"] {
     gap: 16px;
 }
 
+.gallery-div__top {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+}
+
 .footer {
     width: 100%;
     display: flex;
