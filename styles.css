@@ -559,7 +559,7 @@ input[name="r"] {
     line-height: 150%;
     color: var(--font-color-6);
 }
-
+ 
 .gallery-div-container {
     display: flex;
     align-items: center;
