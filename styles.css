@@ -66,7 +66,7 @@
 
 .nav-icons a {
     display: block;
-}   
+}
 
 .burger-icon {
     display: none;
@@ -645,7 +645,7 @@ input[name="r"] {
 }
 
 .footer-div__header {
-    
+
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -700,36 +700,36 @@ a {
         width: 85%;
         height: auto;
     }
-    
+
     .prototipes-section {
         width: 80%;
         flex-wrap: wrap;
         height: auto;
     }
-    
+
     .prototipes-div {
         height: 100hv;
     }
-    
+
     .prototipes-div {
         margin-right: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
+
     .gallery-section {
         width: 80%;
         flex-wrap: wrap;
     }
-    
+
     .gallery-div-container {
         flex-wrap: wrap;
     }
-    
+
     .main {
         flex-wrap: wrap;
     }
-    
+
     .main-info {
         padding-bottom: 20px;
     }
@@ -741,7 +741,7 @@ a {
         height: auto;
         padding: 15px;
     }
-    
+
     .nav-links,
     .nav-icons {
         display: none;
@@ -749,35 +749,35 @@ a {
         text-align: center;
         margin-top: 10px;
     }
-    
+
     .nav li {
         float: none;
         display: block;
         margin-bottom: 10px;
     }
-    
+
     .nav-icons ul,
     .nav-links ul {
         padding: 0;
         margin: 0;
     }
-    
+
     .nav-icons li,
     .nav-links li {
         padding: 0;
         margin: 0;
         font-size: 30px;
     }
-    
+
     .nav-icons {
         order: 1;
     }
-    
+
     .burger-icon {
         display: block;
         cursor: pointer;
     }
-    
+
 }
 
 @media screen and (max-width: 789px) {
@@ -796,18 +796,18 @@ a {
     .gallery-div-container {
         justify-content: center;
     }
-    
+
     .gallery-div {
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 540px) {
-    .intro { 
+    .intro {
         width: 100%;
         background-image: none;
     }
-    
+
     .intro-info {
         width: 100%;
         height: auto;
@@ -821,7 +821,7 @@ a {
     .footer-nav {
         width: 100%;
     }
-    
+
     .main {
         justify-content: center;
     }
@@ -830,13 +830,13 @@ a {
         padding-left: 0;
         padding-bottom: 20px;
     }
-    
+
     .gallery_delete_l {
         display: none;
     }
 
 
-    
+
     .copyright {
         padding-left: 35px;
         padding-top: 10px;
@@ -870,7 +870,7 @@ a {
         font-size: 26px;
     }
 
-    .prototipes-div__description{
+    .prototipes-div__description {
         font-size: 14px;
     }
 
