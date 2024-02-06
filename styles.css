@@ -573,6 +573,10 @@ input[name="r"] {
     gap: 16px;
 }
 
+.gallery-div-center {
+    padding-right: 16px;
+}
+
 .gallery-div__top {
     display: flex;
     gap: 16px;
