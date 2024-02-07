@@ -390,6 +390,7 @@
 
 .prototipes-div {
     display: flex;
+    position: relative;
 }
 
 .prototipes-div_slider-bg {
@@ -476,6 +477,28 @@
     width: 372px;
     height: 550px;
     overflow: hidden;
+}
+
+.slider__button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    color: #000;
+}
+
+.slider__button:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.slider__button_left {
+    top: 47%;
+}
+
+.slider__button_right {
+    top: 50%;
+    right: 0;
 }
 
 .slides__nav {

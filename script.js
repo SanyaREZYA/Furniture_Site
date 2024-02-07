@@ -8,6 +8,10 @@ let sliderArray = [
 ];
 
 let currentIndex = 0;
+let arrayLength = sliderArray.length;
+
+const firstLabel = document.querySelector(`label[for="r1"]`);
+firstLabel.style.backgroundImage = "url('images/active.png')";
 
 function toggleNav() {
   const navLinks = document.querySelector('.nav-links');
@@ -19,19 +23,19 @@ function toggleNav() {
 }
 
 function changeBackground(index) {
-  let sliderBg = document.getElementById('slider-bg');
+  let sliderBg = document.querySelector('#slider-bg');
   let currentSlide = document.querySelector('.s1');
 
   currentIndex = index;
 
-  setTimeout(function () {
+  //setTimeout(function () {
     if (sliderArray[index]) {
       sliderBg.style.backgroundImage = "url('" + sliderArray[index].imagePath + "')";
-      document.getElementById('slider-subheader').innerText = sliderArray[index].subheader;
-      document.getElementById('slider-description').innerText = sliderArray[index].description;
+      document.querySelector('#slider-subheader').innerText = sliderArray[index].subheader;
+      document.querySelector('#slider-description').innerText = sliderArray[index].description;
       currentSlide.style.marginLeft = -(currentIndex * 25) + '%';
     }
-  }, 50);
+  //}, 50);
 }
 
 for (let i = 0; i < sliderArray.length; i++) {
@@ -53,3 +57,25 @@ for (let i = 0; i < sliderArray.length; i++) {
     });
   }
 }
+
+function prevSlide() {
+  currentIndex = (currentIndex - 1 + arrayLength) % arrayLength;
+  changeBackground(currentIndex);
+  updateActiveSlideLabel();
+}
+
+function nextSlide() {
+  currentIndex = (currentIndex + 1) % arrayLength;
+  changeBackground(currentIndex);
+  updateActiveSlideLabel();
+}
+
+function updateActiveSlideLabel() {
+  for (let j = 0; j < arrayLength; j++) {
+    let label = document.querySelector(`label[for="r${j + 1}"]`);
+    if (label) {
+      label.style.backgroundImage = (j === currentIndex) ? "url('images/active.png')" : "url('images/passive.png')";
+    }
+  }
+}
+
